@@ -7,7 +7,9 @@ authors = [
     { name = "Hiroshi Sakate", email = "kumadasu@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "rich>=14.1.0",
+]
 
 [project.scripts]
 tool-b = "tool_b:main"
